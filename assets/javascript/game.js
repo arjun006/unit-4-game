@@ -48,14 +48,12 @@ var check = function(){
         alert("You Won! :)");
         updateScore();
         restart();
-    console.log(wins)
     }
     else if(playerScore>randomNumber){
         losses=losses+1;
         alert("You Lost! :(");
         updateScore();
         restart();
-    console.log(losses);
     }
     else{
         updateScore();
@@ -82,22 +80,7 @@ var restart=function(){
     crystalTwo = Math.floor(Math.random()*12)+1;
     crystalThree = Math.floor(Math.random()*12)+1;
     crystalFour = Math.floor(Math.random()*12)+1;
-    console.log (crystalFour, crystalOne, crystalThree, crystalTwo);
 };
-
-
-
-
-
-
-
-   
-    
-
-
-
-
-
 
 
 

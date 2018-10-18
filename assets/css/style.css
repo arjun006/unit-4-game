@@ -1,0 +1,17 @@
+.bg-style{
+    background:url(../images/memphis-colorful.png);
+}
+
+.jumbotron{
+    background-color: rgb(118, 245, 145)
+}
+
+.crystals{
+    background-color:gold;
+}
+
+.score-style{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    
+}
